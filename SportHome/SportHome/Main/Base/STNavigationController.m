@@ -19,7 +19,7 @@
 
     if (self = [super initWithRootViewController:rootViewController]) {
           self.interactivePopGestureRecognizer.delegate=(id)self;
-          self.navigationBar.barTintColor = THEME_RED;
+          self.navigationBar.barTintColor = [UIColor whiteColor];
         //title
             [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont boldSystemFontOfSize:17]}];
     }
