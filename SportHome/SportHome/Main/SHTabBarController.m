@@ -8,9 +8,9 @@
 
 #import "SHTabBarController.h"
 #import "STNavigationController.h"
-#import "SHSprotViewController.h"
-#import "SHFocusViewController.h"
+#import "SHHomeViewController.h"
 #import "SHCommunityController.h"
+#import "SHRecordViewController.h"
 #import "SHMyselfController.h"
 #define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
 @interface SHTabBarController ()
@@ -21,9 +21,9 @@
 -(instancetype)init
 {
     if (self = [super init]) {
-        [self addChildVc:[SHSprotViewController new] title:@"活动" image:nil selectedImage:nil];
-        [self addChildVc:[SHCommunityControlle new] title:@"社区" image:nil selectedImage:nil];
-        [self addChildVc:[SHFocusViewController new] title:@"关注" image:nil selectedImage:nil];
+        [self addChildVc:[SHHomeViewController new] title:@"主页" image:nil selectedImage:nil];
+        [self addChildVc:[SHRecordViewController new] title:@"记录" image:nil selectedImage:nil];
+        [self addChildVc:[SHCommunityController new] title:@"社交" image:nil selectedImage:nil];
         [self addChildVc:[SHMyselfController new] title:@"我的" image:nil selectedImage:nil];
     }
     return self;

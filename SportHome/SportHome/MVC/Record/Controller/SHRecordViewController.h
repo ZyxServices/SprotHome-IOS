@@ -1,5 +1,5 @@
 //
-//  SHSprotViewController.h
+//  SHFocusViewController.h
 //  SportHome
 //
 //  Created by stoneobs on 16/10/18.
@@ -8,6 +8,6 @@
 
 #import "STBaseViewController.h"
 
-@interface SHCommunityController : STBaseViewController
+@interface SHRecordViewController : STBaseViewController
 
 @end

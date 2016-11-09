@@ -7,7 +7,7 @@
 //
 /// 改进：将picker抽出，放到一个新的vc中。将下方弹出框抽出，新vc。
 #import <UIKit/UIKit.h>
-#import "UIView+Direction.h"
+//#import "UIView+Direction.h"
 //alert确认回调
 typedef void(^ALERTBLOCK)(NSString* name);
 //actionsheet 回调
