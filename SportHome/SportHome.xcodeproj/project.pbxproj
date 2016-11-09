@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4214ED341DD30F1600DD7ADB /* SHHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214ED331DD30F1600DD7ADB /* SHHomeHeaderView.m */; };
+		4214ED3B1DD3131800DD7ADB /* SHHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214ED391DD3131800DD7ADB /* SHHomeTableViewCell.m */; };
+		4214ED3C1DD3131800DD7ADB /* SHHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4214ED3A1DD3131800DD7ADB /* SHHomeTableViewCell.xib */; };
+		4214ED3F1DD3160900DD7ADB /* testmimde.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214ED3E1DD3160900DD7ADB /* testmimde.m */; };
 		4227359C1DD2D13300E92774 /* SHCommunityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422735871DD2D13300E92774 /* SHCommunityController.m */; };
 		4227359D1DD2D13300E92774 /* SHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227358D1DD2D13300E92774 /* SHHomeViewController.m */; };
 		4227359E1DD2D13300E92774 /* SHMyselfController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422735931DD2D13300E92774 /* SHMyselfController.m */; };
@@ -88,6 +91,11 @@
 /* Begin PBXFileReference section */
 		4214ED321DD30F1600DD7ADB /* SHHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHomeHeaderView.h; sourceTree = "<group>"; };
 		4214ED331DD30F1600DD7ADB /* SHHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHomeHeaderView.m; sourceTree = "<group>"; };
+		4214ED381DD3131800DD7ADB /* SHHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHomeTableViewCell.h; sourceTree = "<group>"; };
+		4214ED391DD3131800DD7ADB /* SHHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHomeTableViewCell.m; sourceTree = "<group>"; };
+		4214ED3A1DD3131800DD7ADB /* SHHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHHomeTableViewCell.xib; sourceTree = "<group>"; };
+		4214ED3D1DD3160900DD7ADB /* testmimde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testmimde.h; sourceTree = "<group>"; };
+		4214ED3E1DD3160900DD7ADB /* testmimde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testmimde.m; sourceTree = "<group>"; };
 		4227357D1DD2CC3300E92774 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		422735861DD2D13300E92774 /* SHCommunityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCommunityController.h; sourceTree = "<group>"; };
 		422735871DD2D13300E92774 /* SHCommunityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCommunityController.m; sourceTree = "<group>"; };
@@ -305,6 +313,8 @@
 		4227358E1DD2D13300E92774 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4214ED3D1DD3160900DD7ADB /* testmimde.h */,
+				4214ED3E1DD3160900DD7ADB /* testmimde.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -314,6 +324,9 @@
 			children = (
 				4214ED321DD30F1600DD7ADB /* SHHomeHeaderView.h */,
 				4214ED331DD30F1600DD7ADB /* SHHomeHeaderView.m */,
+				4214ED381DD3131800DD7ADB /* SHHomeTableViewCell.h */,
+				4214ED391DD3131800DD7ADB /* SHHomeTableViewCell.m */,
+				4214ED3A1DD3131800DD7ADB /* SHHomeTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -750,6 +763,7 @@
 				9551E09B1DB61D5000B60C57 /* area.plist in Resources */,
 				9551E0A31DB61D5000B60C57 /* shake_match.wav in Resources */,
 				9551E0BF1DB61D5A00B60C57 /* Assets.xcassets in Resources */,
+				4214ED3C1DD3131800DD7ADB /* SHHomeTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -810,6 +824,7 @@
 				9551E0891DB61D5000B60C57 /* MBProgressHUD+MJ.m in Sources */,
 				4214ED341DD30F1600DD7ADB /* SHHomeHeaderView.m in Sources */,
 				9551E0901DB61D5000B60C57 /* SDWebImageDownloader.m in Sources */,
+				4214ED3F1DD3160900DD7ADB /* testmimde.m in Sources */,
 				9551E0BC1DB61D5000B60C57 /* STTextView.m in Sources */,
 				9551E0B21DB61D5000B60C57 /* STCalenderView.m in Sources */,
 				9551E0B41DB61D5000B60C57 /* STMonthModel.m in Sources */,
@@ -831,6 +846,7 @@
 				9551E07A1DB61D5000B60C57 /* SHTabBarController.m in Sources */,
 				9551E0B61DB61D5000B60C57 /* STBaseModel.m in Sources */,
 				9551E07B1DB61D5000B60C57 /* STNetWorkManger.m in Sources */,
+				4214ED3B1DD3131800DD7ADB /* SHHomeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
