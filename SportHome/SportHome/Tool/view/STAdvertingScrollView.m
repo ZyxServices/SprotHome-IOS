@@ -213,4 +213,9 @@
         [[NSRunLoop mainRunLoop]addTimer:_timer forMode:NSRunLoopCommonModes];
     }
 }
+-(void)removeFromSuperview
+{
+    [self.timer invalidate];
+    [super removeFromSuperview];
+}
 @end

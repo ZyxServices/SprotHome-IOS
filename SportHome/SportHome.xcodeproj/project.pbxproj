@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4214ED341DD30F1600DD7ADB /* SHHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214ED331DD30F1600DD7ADB /* SHHomeHeaderView.m */; };
 		4227359C1DD2D13300E92774 /* SHCommunityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422735871DD2D13300E92774 /* SHCommunityController.m */; };
 		4227359D1DD2D13300E92774 /* SHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227358D1DD2D13300E92774 /* SHHomeViewController.m */; };
 		4227359E1DD2D13300E92774 /* SHMyselfController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422735931DD2D13300E92774 /* SHMyselfController.m */; };
 		4227359F1DD2D13300E92774 /* SHRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422735991DD2D13300E92774 /* SHRecordViewController.m */; };
+		422735A21DD2FB2A00E92774 /* STPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 422735A11DD2FB2A00E92774 /* STPageControl.m */; };
 		9551DFBA1DB61D1D00B60C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9551DFB81DB61D1D00B60C57 /* LaunchScreen.storyboard */; };
 		9551E0741DB61D5000B60C57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9551DFC51DB61D5000B60C57 /* AppDelegate.m */; };
 		9551E0751DB61D5000B60C57 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9551DFC61DB61D5000B60C57 /* Info.plist */; };
@@ -84,6 +86,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4214ED321DD30F1600DD7ADB /* SHHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHomeHeaderView.h; sourceTree = "<group>"; };
+		4214ED331DD30F1600DD7ADB /* SHHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHomeHeaderView.m; sourceTree = "<group>"; };
 		4227357D1DD2CC3300E92774 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		422735861DD2D13300E92774 /* SHCommunityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCommunityController.h; sourceTree = "<group>"; };
 		422735871DD2D13300E92774 /* SHCommunityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCommunityController.m; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		422735931DD2D13300E92774 /* SHMyselfController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHMyselfController.m; sourceTree = "<group>"; };
 		422735981DD2D13300E92774 /* SHRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRecordViewController.h; sourceTree = "<group>"; };
 		422735991DD2D13300E92774 /* SHRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRecordViewController.m; sourceTree = "<group>"; };
+		422735A01DD2FB2A00E92774 /* STPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPageControl.h; sourceTree = "<group>"; };
+		422735A11DD2FB2A00E92774 /* STPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPageControl.m; sourceTree = "<group>"; };
 		9551DFA71DB61D1D00B60C57 /* SportHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9551DFB91DB61D1D00B60C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9551DFC41DB61D5000B60C57 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -306,6 +312,8 @@
 		4227358F1DD2D13300E92774 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4214ED321DD30F1600DD7ADB /* SHHomeHeaderView.h */,
+				4214ED331DD30F1600DD7ADB /* SHHomeHeaderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -658,6 +666,8 @@
 				9551E0711DB61D5000B60C57 /* STTextView.m */,
 				9551E0721DB61D5000B60C57 /* TTTAttributedLabel.h */,
 				9551E0731DB61D5000B60C57 /* TTTAttributedLabel.m */,
+				422735A01DD2FB2A00E92774 /* STPageControl.h */,
+				422735A11DD2FB2A00E92774 /* STPageControl.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -798,6 +808,7 @@
 				9551E0A91DB61D5000B60C57 /* STImagePickerController.m in Sources */,
 				9551E0B81DB61D5000B60C57 /* STLabel.m in Sources */,
 				9551E0891DB61D5000B60C57 /* MBProgressHUD+MJ.m in Sources */,
+				4214ED341DD30F1600DD7ADB /* SHHomeHeaderView.m in Sources */,
 				9551E0901DB61D5000B60C57 /* SDWebImageDownloader.m in Sources */,
 				9551E0BC1DB61D5000B60C57 /* STTextView.m in Sources */,
 				9551E0B21DB61D5000B60C57 /* STCalenderView.m in Sources */,
@@ -813,6 +824,7 @@
 				9551E0A41DB61D5000B60C57 /* STLayoutViewController.m in Sources */,
 				9551E0AA1DB61D5000B60C57 /* STPhotoBaseViewController.m in Sources */,
 				9551E0AB1DB61D5000B60C57 /* STPhotoBrowerController.m in Sources */,
+				422735A21DD2FB2A00E92774 /* STPageControl.m in Sources */,
 				9551E0821DB61D5000B60C57 /* AFHTTPSessionManager.m in Sources */,
 				9551E08D1DB61D5000B60C57 /* SDImageCache.m in Sources */,
 				9551E0A81DB61D5000B60C57 /* STCollectionViewCell.m in Sources */,
