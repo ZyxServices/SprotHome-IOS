@@ -21,18 +21,18 @@
 -(instancetype)init
 {
     if (self = [super init]) {
-        [self addChildVc:[SHHomeViewController new] title:@"主页" image:nil selectedImage:nil];
-        [self addChildVc:[SHRecordViewController new] title:@"记录" image:nil selectedImage:nil];
-        [self addChildVc:[SHCommunityController new] title:@"社交" image:nil selectedImage:nil];
-        [self addChildVc:[SHMyselfController new] title:@"我的" image:nil selectedImage:nil];
+        [self addChildVc:[SHHomeViewController new] title:@"主页" image:@"tab_home_n" selectedImage:@"tab_home_s"];
+        [self addChildVc:[SHRecordViewController new] title:@"记录" image:@"tab__note_n-" selectedImage:@"tab__note_s"];
+        [self addChildVc:[SHCommunityController new] title:@"社交" image:@"tab_community_n" selectedImage:@"tab_community_s"];
+        [self addChildVc:[SHMyselfController new] title:@"我的" image:@"tab_user_n" selectedImage:@"tab_user_s"];
     }
     return self;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:11.0], NSFontAttributeName,  RGB(0x33333), NSForegroundColorAttributeName,nil] forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:11.0], NSFontAttributeName,  ThirdTextColor, NSForegroundColorAttributeName,nil] forState:UIControlStateNormal];
     
-    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:11.0], NSFontAttributeName,  RGB(0xd80204), NSForegroundColorAttributeName,nil] forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:11.0], NSFontAttributeName,  [UIColor orangeColor], NSForegroundColorAttributeName,nil] forState:UIControlStateSelected];
 
 }
 
