@@ -86,6 +86,12 @@
 		9551E0BC1DB61D5000B60C57 /* STTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9551E0711DB61D5000B60C57 /* STTextView.m */; };
 		9551E0BD1DB61D5000B60C57 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9551E0731DB61D5000B60C57 /* TTTAttributedLabel.m */; };
 		9551E0BF1DB61D5A00B60C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9551E0BE1DB61D5A00B60C57 /* Assets.xcassets */; };
+		956973C31DD31D41006B46F6 /* my.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956973C21DD31D41006B46F6 /* my.storyboard */; };
+		956973C61DD40BF5006B46F6 /* SHMyHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 956973C51DD40BF5006B46F6 /* SHMyHomeTableViewCell.m */; };
+		956973CB1DD40CA9006B46F6 /* XZButtonOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 956973C81DD40CA9006B46F6 /* XZButtonOC.m */; };
+		956973CC1DD40CA9006B46F6 /* XZImageOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 956973CA1DD40CA9006B46F6 /* XZImageOC.m */; };
+		956973CF1DD414AE006B46F6 /* XZLabelOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 956973CE1DD414AE006B46F6 /* XZLabelOC.m */; };
+		956973D21DD41908006B46F6 /* XZDoubleLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 956973D11DD41908006B46F6 /* XZDoubleLabelView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -245,6 +251,17 @@
 		9551E0721DB61D5000B60C57 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
 		9551E0731DB61D5000B60C57 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 		9551E0BE1DB61D5A00B60C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		956973C21DD31D41006B46F6 /* my.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = my.storyboard; sourceTree = "<group>"; };
+		956973C41DD40BF5006B46F6 /* SHMyHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHMyHomeTableViewCell.h; sourceTree = "<group>"; };
+		956973C51DD40BF5006B46F6 /* SHMyHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHMyHomeTableViewCell.m; sourceTree = "<group>"; };
+		956973C71DD40CA9006B46F6 /* XZButtonOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZButtonOC.h; sourceTree = "<group>"; };
+		956973C81DD40CA9006B46F6 /* XZButtonOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZButtonOC.m; sourceTree = "<group>"; };
+		956973C91DD40CA9006B46F6 /* XZImageOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZImageOC.h; sourceTree = "<group>"; };
+		956973CA1DD40CA9006B46F6 /* XZImageOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZImageOC.m; sourceTree = "<group>"; };
+		956973CD1DD414AE006B46F6 /* XZLabelOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZLabelOC.h; sourceTree = "<group>"; };
+		956973CE1DD414AE006B46F6 /* XZLabelOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZLabelOC.m; sourceTree = "<group>"; };
+		956973D01DD41908006B46F6 /* XZDoubleLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDoubleLabelView.h; sourceTree = "<group>"; };
+		956973D11DD41908006B46F6 /* XZDoubleLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDoubleLabelView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,6 +363,7 @@
 			children = (
 				422735921DD2D13300E92774 /* SHMyselfController.h */,
 				422735931DD2D13300E92774 /* SHMyselfController.m */,
+				956973C21DD31D41006B46F6 /* my.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -360,6 +378,8 @@
 		422735951DD2D13300E92774 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				956973C41DD40BF5006B46F6 /* SHMyHomeTableViewCell.h */,
+				956973C51DD40BF5006B46F6 /* SHMyHomeTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -681,6 +701,14 @@
 				9551E0731DB61D5000B60C57 /* TTTAttributedLabel.m */,
 				422735A01DD2FB2A00E92774 /* STPageControl.h */,
 				422735A11DD2FB2A00E92774 /* STPageControl.m */,
+				956973C71DD40CA9006B46F6 /* XZButtonOC.h */,
+				956973C81DD40CA9006B46F6 /* XZButtonOC.m */,
+				956973C91DD40CA9006B46F6 /* XZImageOC.h */,
+				956973CA1DD40CA9006B46F6 /* XZImageOC.m */,
+				956973CD1DD414AE006B46F6 /* XZLabelOC.h */,
+				956973CE1DD414AE006B46F6 /* XZLabelOC.m */,
+				956973D01DD41908006B46F6 /* XZDoubleLabelView.h */,
+				956973D11DD41908006B46F6 /* XZDoubleLabelView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -763,6 +791,7 @@
 				9551E09B1DB61D5000B60C57 /* area.plist in Resources */,
 				9551E0A31DB61D5000B60C57 /* shake_match.wav in Resources */,
 				9551E0BF1DB61D5A00B60C57 /* Assets.xcassets in Resources */,
+				956973C31DD31D41006B46F6 /* my.storyboard in Resources */,
 				4214ED3C1DD3131800DD7ADB /* SHHomeTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -777,6 +806,7 @@
 				9551E0A21DB61D5000B60C57 /* STTableViewController.m in Sources */,
 				9551E08F1DB61D5000B60C57 /* SDWebImageDecoder.m in Sources */,
 				4227359E1DD2D13300E92774 /* SHMyselfController.m in Sources */,
+				956973CB1DD40CA9006B46F6 /* XZButtonOC.m in Sources */,
 				9551E0B31DB61D5000B60C57 /* STCalenderViewCollectionViewCell.m in Sources */,
 				9551E09A1DB61D5000B60C57 /* UIView+WebCacheOperation.m in Sources */,
 				9551E09D1DB61D5000B60C57 /* NSString+Format.m in Sources */,
@@ -785,6 +815,7 @@
 				9551E0B51DB61D5000B60C57 /* STAdvertingScrollView.m in Sources */,
 				9551E0B11DB61D5000B60C57 /* STCalenderModel.m in Sources */,
 				9551E0881DB61D5000B60C57 /* MBProgressHUD+Add.m in Sources */,
+				956973D21DD41908006B46F6 /* XZDoubleLabelView.m in Sources */,
 				9551E09E1DB61D5000B60C57 /* NSString+MD5.m in Sources */,
 				9551E0AD1DB61D5000B60C57 /* STPhotoCollectionViewController.m in Sources */,
 				9551E08A1DB61D5000B60C57 /* MBProgressHUD.m in Sources */,
@@ -801,6 +832,7 @@
 				9551E0BA1DB61D5000B60C57 /* STSegementButton.m in Sources */,
 				9551E0981DB61D5000B60C57 /* UIImageView+HighlightedWebCache.m in Sources */,
 				9551E0A61DB61D5000B60C57 /* STBrowserCollectionViewCell.m in Sources */,
+				956973C61DD40BF5006B46F6 /* SHMyHomeTableViewCell.m in Sources */,
 				9551E0831DB61D5000B60C57 /* AFNetworkReachabilityManager.m in Sources */,
 				9551E0771DB61D5000B60C57 /* STBaseViewController.m in Sources */,
 				9551E0951DB61D5000B60C57 /* UIImage+GIF.m in Sources */,
@@ -821,6 +853,7 @@
 				9551E0B91DB61D5000B60C57 /* STRadioButton.m in Sources */,
 				9551E0A91DB61D5000B60C57 /* STImagePickerController.m in Sources */,
 				9551E0B81DB61D5000B60C57 /* STLabel.m in Sources */,
+				956973CC1DD40CA9006B46F6 /* XZImageOC.m in Sources */,
 				9551E0891DB61D5000B60C57 /* MBProgressHUD+MJ.m in Sources */,
 				4214ED341DD30F1600DD7ADB /* SHHomeHeaderView.m in Sources */,
 				9551E0901DB61D5000B60C57 /* SDWebImageDownloader.m in Sources */,
@@ -831,6 +864,7 @@
 				9551E0BB1DB61D5000B60C57 /* STSendButton.m in Sources */,
 				9551E0941DB61D5000B60C57 /* UIButton+WebCache.m in Sources */,
 				9551E0A51DB61D5000B60C57 /* STPopViewController.m in Sources */,
+				956973CF1DD414AE006B46F6 /* XZLabelOC.m in Sources */,
 				9551E0781DB61D5000B60C57 /* STNavigationController.m in Sources */,
 				9551E0A11DB61D5000B60C57 /* STScanTwoCodeController.m in Sources */,
 				9551E0AC1DB61D5000B60C57 /* STPhotoCollectionViewCell.m in Sources */,

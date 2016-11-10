@@ -9,5 +9,8 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 #import "UIView+Direction.h"
-
+#import "XZButtonOC.h"
+#import "XZImageOC.h"
+#import "XZLabelOC.h"
+#import "XZDoubleLabelView.h"
 #endif /* PrefixHeader_pch */

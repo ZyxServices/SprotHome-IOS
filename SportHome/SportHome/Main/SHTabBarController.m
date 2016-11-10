@@ -24,7 +24,10 @@
         [self addChildVc:[SHHomeViewController new] title:@"主页" image:@"tab_home_n" selectedImage:@"tab_home_s"];
         [self addChildVc:[SHRecordViewController new] title:@"记录" image:@"tab__note_n-" selectedImage:@"tab__note_s"];
         [self addChildVc:[SHCommunityController new] title:@"社交" image:@"tab_community_n" selectedImage:@"tab_community_s"];
-        [self addChildVc:[SHMyselfController new] title:@"我的" image:@"tab_user_n" selectedImage:@"tab_user_s"];
+        
+        UIStoryboard *sb = [UIStoryboard storyboardWithName:@"my" bundle:nil];
+        UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"SHMyselfController"];
+        [self addChildVc:vc title:@"我的" image:@"tab_user_n" selectedImage:@"tab_user_s"];
     }
     return self;
 }
